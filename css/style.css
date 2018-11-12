@@ -1,10 +1,217 @@
 /*
-font-family: 'Gloria Hallelujah', cursive;
 font-family: 'Amatic SC', cursive;
+font-family: 'Oswald', sans-serif;
 */
 
-header div img {
-    width: 30%;
+.css-adaptiv {
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
+
+body {
+	font-family: 'Amatic SC', cursive;
+}
+
+header {
+	height: 100px;
+}
+
+header div img {
+	width: 20%;
+	display: inline-block;
+	margin-top: 25px;
+}
+
+header nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+header nav ul li {
+	color: #7A7A7A;
+	font-size: 25px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 30px 0px 0px 20px;
+}
+
+header nav ul li a {
+	color: #7A7A7A;
+	text-decoration: none;
+}
+
+header nav ul li a:hover {
+	color: #7A7A7A;
+	text-decoration: underline;
+}
+
+/********************************
+*********************************
+**********ФОТОДНЕВНИК************
+*********************************
+********************************/
+
+section.content-post {
+	margin-top: 50px;
+	padding: 0px 50px !important;
+}
+
+section.content-post a,
+section.content-post .comment {
+	color: #7A7A7A;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+}
+
+section.content-post a:hover,
+section.content-post .comment:hover {
+	text-decoration: underline;
+}
+
+section.content-post h2 {
+	color: #7A7A7A;
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 10px;
+}
+
+section.content-post div.content {
+	color: #7A7A7A;
+	font-size: 22px;
+	text-indent: 1.5em;
+	text-align: justify;
+	margin-bottom: 20px;
+	line-height: 130%;
+}
+
+/********************************
+*********************************
+******МИНИ-ФОТОДНЕВНИК***********
+*********************************
+********************************/
+
+section.next-post {
+	margin-top: 80px;
+	padding: 0px 50px !important;
+}
+
+section.next-post div.category a,
+section.next-post a {
+	color: #7A7A7A;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+}
+
+div.post div.category {
+	margin-top: 20px;
+}
+
+section.next-post h2 {
+	color: #7A7A7A;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 10px;
+}
+
+section.next-post div.content {
+	color: #7A7A7A;
+	font-size: 22px;
+	text-indent: 1.5em;
+	text-align: justify;
+	margin-bottom: 20px;
+	line-height: 120%;
+}
+
+section.next-post div.post {
+	margin-bottom: 90px;
+}
+
+
+/********************************
+*********************************
+**********ПОДПИСКА***************
+*********************************
+********************************/
+
+section.newsletter {
+	height: 250px;
+	background: #f2f2f2;
+	padding: 50px
+}
+
+section.newsletter div.sign {
+	color: #626262;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+section.newsletter form {
+	width: 400px;
+	border-bottom: 1px solid #626262;
+	margin: 0 auto;
+}
+
+section.newsletter form input {
+	border: none;
+	background: inherit;
+	width: 350px;
+	height: 35px;
+	font-size: 20px;
+}
+
+section.newsletter form button {
+	float: right;
+	border: none;
+	background: none;
+	cursor: pointer;
+	margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
