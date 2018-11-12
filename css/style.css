@@ -18,9 +18,8 @@ header {
 }
 
 header div img {
-	width: 20%;
+	width: auto;
 	display: inline-block;
-	margin-top: 25px;
 }
 
 header nav ul {
@@ -28,7 +27,7 @@ header nav ul {
 	margin: 0;
 	padding: 0;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-end;	
 }
 
 header nav ul li {
@@ -36,7 +35,7 @@ header nav ul li {
 	font-size: 25px;
 	text-transform: uppercase;
 	display: inline-block;
-	margin: 30px 0px 0px 20px;
+	text-align: right;
 }
 
 header nav ul li a {
@@ -57,7 +56,6 @@ header nav ul li a:hover {
 
 section.content-post {
 	margin-top: 50px;
-	padding: 0px 50px !important;
 }
 
 section.content-post a,
@@ -73,6 +71,7 @@ section.content-post a:hover,
 section.content-post .comment:hover {
 	text-decoration: underline;
 }
+
 
 section.content-post h2 {
 	color: #7A7A7A;
@@ -98,7 +97,6 @@ section.content-post div.content {
 
 section.next-post {
 	margin-top: 80px;
-	padding: 0px 50px !important;
 }
 
 section.next-post div.category a,
@@ -108,6 +106,10 @@ section.next-post a {
 	text-transform: uppercase;
 	text-decoration: none;
 	font-family: 'Oswald', sans-serif;
+}
+
+section.next-post div.category a:hover {
+	text-decoration: underline;
 }
 
 div.post div.category {
@@ -190,9 +192,9 @@ div.more {
 div.more a {
 	display: inline-block;
 	color: #626262;
-	font-size: 15px;	
+	font-size: 15px;
 	text-decoration: none;
-	padding:  20px;
+	padding: 20px;
 	border: 1px solid #626262;
 }
 
@@ -211,19 +213,18 @@ footer {
 
 footer div.container p {
 	display: inline-block;
-	margin-right: 20px;
 }
 
 footer div.row {
-	padding: 35px 0px 0px 0px;	
+	padding: 35px 0px 0px 0px;
 }
 
 footer div.left {
-	text-align: left;	
+	text-align: left;
 }
 
 footer div.right {
-	text-align: right;	
+	text-align: right;
 }
 
 footer div.right img {
@@ -237,33 +238,146 @@ footer div.left a {
 
 
 
+/********************************
+*********************************
+*********ADAPTATION**************
+*********************************
+********************************/
+
+@media (max-width: 575.98px) {
+	section.content-post h2 {
+		font-size: 25px;
+	}
+
+	div.container section.next-post div.col-6 {
+		padding-right: 7px;
+		padding-left: 7px;
+	}
+
+	div.content p {
+		font-size: 17px;
+		line-height: 100%;
+	}
+
+	section.next-post h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	section.newsletter form {
+		width: auto;
+		border-bottom: 1px solid #626262;
+		margin: 0 auto;
+	}
+
+	section.newsletter form input {
+		border: none;
+		background: inherit;
+		width: 175px;
+		height: 35px;
+		font-size: 15px;
+	}
+
+	section.newsletter form button {
+		float: right;
+		border: none;
+		background: none;
+		cursor: pointer;
+		margin-top: 3px;
+	}
+
+	section.newsletter div.sign {
+		margin-bottom: 20px;
+	}
+
+	footer div.container p {
+		display: inline-block;
+		margin-right: 10px;
+	}
+
+	footer {
+		height: 90px;
+		font-size: 15px;
+	}
+
+	footer div.row {
+		padding: 15px 0px 0px 0px;
+	}
+
+	footer div.right {
+		padding: 18px 10px 0px 0px;
+	}
+
+	footer div.right img {
+		margin-left: 10px;
+	}
+}
 
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+	section.content-post h2 {
+		font-size: 25px;
+	}
 
+	div.container section.next-post div.col-6 {
+		padding-right: 7px;
+		padding-left: 7px;
+	}
 
+	div.content p {
+		font-size: 15px;
+	}
 
+	section.next-post h2 {
+		font-size: 20px;
+		text-align: center;
+	}
 
+	section.content-post {
+		padding: 0px 0px !important;
+	}
 
+	section.newsletter form {
+		width: auto;
+		border-bottom: 1px solid #626262;
+		margin: 0 auto;
+	}
 
+	section.newsletter form input {
+		border: none;
+		background: inherit;
+		width: 230px;
+		height: 35px;
+		font-size: 15px;
+	}
 
+	section.newsletter form button {
+		float: right;
+		border: none;
+		background: none;
+		cursor: pointer;
+		margin-top: 3px;
+	}
 
+	section.newsletter div.sign {
+		margin-bottom: 20px;
+	}
 
+	footer div.container p {
+		display: inline-block;
+		margin-right: 10px;
+	}
 
+	footer {
+		height: 90px;
+		font-size: 18px;
+	}
 
+	footer div.row {
+		padding: 15px 0px 0px 0px;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	footer div.right {
+		padding: 18px 15px 0px 0px;
+	}
+}
