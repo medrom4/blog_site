@@ -177,11 +177,63 @@ section.newsletter form button {
 }
 
 
+/********************************
+*********************************
+**********Загрузить ещё**********
+*********************************
+********************************/
 
+div.more {
+	text-align: center;
+}
 
+div.more a {
+	display: inline-block;
+	color: #626262;
+	font-size: 15px;	
+	text-decoration: none;
+	padding:  20px;
+	border: 1px solid #626262;
+}
 
+/********************************
+*********************************
+**********FOOTER*****************
+*********************************
+********************************/
 
+footer {
+	height: 100px;
+	background: #f0f0f0;
+	margin-top: 300px;
+	font-size: 20px;
+}
 
+footer div.container p {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+footer div.row {
+	padding: 35px 0px 0px 0px;	
+}
+
+footer div.left {
+	text-align: left;	
+}
+
+footer div.right {
+	text-align: right;	
+}
+
+footer div.right img {
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+footer div.left a {
+	color: #626262;
+}
 
 
 
